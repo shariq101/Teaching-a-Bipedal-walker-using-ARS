@@ -13,7 +13,7 @@ This picture shows 4 different weight configurations with the coefficient being 
 One of the additional modifications to the above equation is that the researchers discarded low rewards immediately. They only used the top k configurations with the highest reward. Intuitively this makes sense because why would we keep pursuing and experimenting with weights that give a low reward? By taking them out, we save time and computational power!
 ARS also does things a little bit differently than other algorithms by exploring policy spaces instead of action spaces. Basically, this means that instead of analyzing the rewards it gets after each action, it analyzes the reward after a series of actions to determine if that set of actions led to a higher reward.
 
-To sum up the main ideas:
+Take away from this :
 
 ARS uses a perceptron instead of a deep neural network.
 
